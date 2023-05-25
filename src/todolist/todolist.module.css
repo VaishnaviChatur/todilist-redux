@@ -1,0 +1,61 @@
+.TodoList {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 85vh;
+    background-color: lightpink;
+    margin-top: -34px;
+}
+
+.field {
+    background-color: rgb(193, 242, 193);
+    display: flex;
+    flex-direction: column;
+    height: 90%;
+    font-size: 1.25rem;
+    width: 100%;
+    /* gap: 20px; */
+    /* margin-top: 50px; */
+    box-shadow: 2px 2px 4px 4px grey;
+}
+
+.btn {
+    border: 2px solid black;
+    width: fit-content;
+    height: 40px;
+    padding: 10px;
+    margin-left: 10px;
+    box-shadow: 2px 2px 4px 4px grey;
+    background-color: lightcoral;
+}
+
+.Btn {
+    border: 2px solid black;
+    /* width: fit-content; */
+    height: 22px;
+    /* margin: auto; */
+    box-shadow: 2px 2px 4px 4px grey;
+    background-color: lightcoral;
+    /* float: right; */
+}
+
+.disbox {
+    display: flex;
+    margin-top: 50px;
+    margin-bottom: 10px;
+}
+
+.list {
+    list-style-type: none;
+    border: 2px solid black;
+    width: 40vw;
+    padding: 2%;
+    box-shadow: 2px 2px 4px 4px grey;
+}
+
+.li {
+    display: flex;
+    box-shadow: 2px 2px 4px 4px grey;
+    padding: 2%;
+    justify-content: space-between;
+}
